@@ -5,7 +5,8 @@ Please see [Github repository](https://github.com/dtan4/terraforming) for more i
 ## SUPPORTED TAGS
 
 - `latest`
-  - Vault 0.0.2
+  - Ruby 2.2.2
+  - Terraforming 0.0.2
 
 ## HOW TO USE
 
