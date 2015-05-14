@@ -26,4 +26,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  terraforming
+  terraforming (= 0.0.2)
