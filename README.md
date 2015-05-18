@@ -1,4 +1,8 @@
-# Terraforming Docker Image [![Docker Repository on Quay.io](https://quay.io/repository/dtan4/terraforming/status "Docker Repository on Quay.io")](https://quay.io/repository/dtan4/terraforming)
+# Terraforming Docker Image
+
+[![wercker status](https://app.wercker.com/status/b5ecd00415c62dbfafcc87d3f82c16e2/s "wercker status")](https://app.wercker.com/project/bykey/b5ecd00415c62dbfafcc87d3f82c16e2)
+[![Docker Repository on Quay.io](https://quay.io/repository/dtan4/terraforming/status "Docker Repository on Quay.io")](https://quay.io/repository/dtan4/terraforming)
+
 Docker Image for [Terraforming](https://github.com/dtan4/terraforming).
 Please see [Github repository](https://github.com/dtan4/terraforming) for more information about Terraforming.
 

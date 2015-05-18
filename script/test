@@ -1,0 +1,49 @@
+#!/bin/bash
+#
+# Usage: script/test
+# Description: script to run test
+#
+
+# this script should be run in project root
+BASE_DIRECTORY=`pwd`
+TERRAFORMING_VERSION="0.0.2"
+
+echo "==> Building target..."
+cd ${BASE_DIRECTORY}
+docker build -t quay.io/dtan4/terraforming:latest .
+
+echo "==> Check Terraforming version..."
+docker run \
+  --rm \
+  --name terraforming \
+  quay.io/dtan4/terraforming:latest \
+  gem list terraforming | \
+  grep -e $TERRAFORMING_VERSION
+
+if [ $? -eq 0 ]
+then
+  echo "  Test passed"
+else
+  echo "  Test failed"
+  exit 1
+fi
+
+echo "==> Check Terraforming is available..."
+docker run \
+  --rm \
+  --name terraforming \
+  quay.io/dtan4/terraforming:latest \
+  terraforming | \
+  grep -e "Commands:"
+
+if [ $? -eq 0 ]
+then
+  echo "  Test passed"
+else
+  echo "  Test failed"
+  exit 1
+fi
+
+echo "==> Cleaning up..."
+docker kill terraforming > /dev/null 2>&1 || true
+docker rm   terraforming > /dev/null 2>&1 || true
