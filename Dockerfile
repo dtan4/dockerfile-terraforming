@@ -9,8 +9,8 @@ COPY Gemfile.lock /app/
 
 RUN apt-get update && \
     apt-get install -y make gcc && \
-    bundle install -j4 --without test development --system && \
-    apt-get remove -y make gcc && \
     rm -rf /var/lib/apt/lists/*
+
+RUN bundle install -j4 --without test development --system
 
 CMD ["terraforming", "help"]
