@@ -10,7 +10,7 @@ Please see [Github repository](https://github.com/dtan4/terraforming) for more i
 
 - `latest`
   - Ruby 2.2.2
-  - Terraforming 0.0.2
+  - Terraforming 0.0.3
 
 ## HOW TO USE
 
