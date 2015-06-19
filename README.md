@@ -5,7 +5,7 @@
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 Docker Image for [Terraforming](https://github.com/dtan4/terraforming).
-Please see [Github repository](https://github.com/dtan4/terraforming) for more information about Terraforming.
+Please see [Terraforming Github repository](https://github.com/dtan4/terraforming) for more information about Terraforming.
 
 ## SUPPORTED TAGS
 
