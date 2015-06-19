@@ -2,6 +2,7 @@
 
 [![wercker status](https://app.wercker.com/status/b5ecd00415c62dbfafcc87d3f82c16e2/s "wercker status")](https://app.wercker.com/project/bykey/b5ecd00415c62dbfafcc87d3f82c16e2)
 [![Docker Repository on Quay.io](https://quay.io/repository/dtan4/terraforming/status "Docker Repository on Quay.io")](https://quay.io/repository/dtan4/terraforming)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 Docker Image for [Terraforming](https://github.com/dtan4/terraforming).
 Please see [Github repository](https://github.com/dtan4/terraforming) for more information about Terraforming.
@@ -10,7 +11,8 @@ Please see [Github repository](https://github.com/dtan4/terraforming) for more i
 
 - `latest`
   - Ruby 2.2.2
-  - Terraforming 0.0.5
+  - Terraforming 0.1.0 [![Gem Version](https://badge.fury.io/rb/terraforming.svg)](http://badge.fury.io/rb/terraforming)
+
 
 ## HOW TO USE
 
