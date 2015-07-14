@@ -1,18 +1,18 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    aws-sdk (2.1.1)
-      aws-sdk-resources (= 2.1.1)
-    aws-sdk-core (2.1.1)
+    aws-sdk (2.1.4)
+      aws-sdk-resources (= 2.1.4)
+    aws-sdk-core (2.1.4)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.1.1)
-      aws-sdk-core (= 2.1.1)
+    aws-sdk-resources (2.1.4)
+      aws-sdk-core (= 2.1.4)
     jmespath (1.0.2)
       multi_json (~> 1.0)
-    multi_json (1.11.1)
-    oj (2.12.9)
+    multi_json (1.11.2)
+    oj (2.12.10)
     ox (2.2.0)
-    terraforming (0.1.0)
+    terraforming (0.1.1)
       aws-sdk (~> 2.1.0)
       oj
       ox
@@ -23,4 +23,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  terraforming (= 0.1.0)
+  terraforming (= 0.1.1)
+
+BUNDLED WITH
+   1.10.3
