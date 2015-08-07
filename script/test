@@ -6,7 +6,7 @@
 
 # this script should be run in project root
 BASE_DIRECTORY=`pwd`
-TERRAFORMING_VERSION="0.1.3"
+TERRAFORMING_VERSION="0.1.4"
 
 echo "==> Building target..."
 cd ${BASE_DIRECTORY}
