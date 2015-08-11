@@ -10,9 +10,9 @@ GEM
     jmespath (1.0.2)
       multi_json (~> 1.0)
     multi_json (1.11.2)
-    oj (2.12.11)
+    oj (2.12.12)
     ox (2.2.1)
-    terraforming (0.1.4)
+    terraforming (0.1.6)
       aws-sdk (~> 2.1.0)
       oj
       ox
@@ -23,7 +23,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  terraforming (= 0.1.4)
+  terraforming (= 0.1.6)
 
 BUNDLED WITH
    1.10.3
