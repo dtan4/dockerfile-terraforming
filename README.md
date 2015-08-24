@@ -8,14 +8,18 @@
 Docker Image for [Terraforming](https://github.com/dtan4/terraforming).
 Please see [Terraforming Github repository](https://github.com/dtan4/terraforming) for more information about Terraforming.
 
-## SUPPORTED TAGS
+## Image Repository
+
+[__quay.io/dtan4/terraforming__](https://quay.io/repository/dtan4/terraforming)
+
+## Supported Tags
 
 - `latest`
   - Ruby 2.2.3
   - Terraforming 0.3.0 [![Gem Version](https://badge.fury.io/rb/terraforming.svg)](http://badge.fury.io/rb/terraforming)
 
 
-## HOW TO USE
+## Usage
 
 ```bash
 $ docker run \
@@ -27,5 +31,6 @@ $ docker run \
     terraforming help
 ```
 
-## LICENSE
+## License
+
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
