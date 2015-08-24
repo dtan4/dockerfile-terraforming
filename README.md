@@ -1,6 +1,7 @@
 # Terraforming Docker Image
 
 [![wercker status](https://app.wercker.com/status/b5ecd00415c62dbfafcc87d3f82c16e2/s "wercker status")](https://app.wercker.com/project/bykey/b5ecd00415c62dbfafcc87d3f82c16e2)
+[![Dependency Status](https://gemnasium.com/dtan4/terraforming.svg)](https://gemnasium.com/dtan4/terraforming)
 [![Docker Repository on Quay.io](https://quay.io/repository/dtan4/terraforming/status "Docker Repository on Quay.io")](https://quay.io/repository/dtan4/terraforming)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
