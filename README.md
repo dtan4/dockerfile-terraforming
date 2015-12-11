@@ -1,6 +1,6 @@
 # Terraforming Docker Image
 
-[![Circle CI](https://circleci.com/gh/dtan4/dockerfile-terraforming.svg?style=shield)](https://circleci.com/gh/dtan4/dockerfile-terraforming)
+[![Build Status](https://travis-ci.org/dtan4/dockerfile-terraforming.svg?branch=master)](https://travis-ci.org/dtan4/dockerfile-terraforming)
 [![Dependency Status](https://gemnasium.com/dtan4/terraforming.svg)](https://gemnasium.com/dtan4/terraforming)
 [![Docker Repository on Quay.io](https://quay.io/repository/dtan4/terraforming/status "Docker Repository on Quay.io")](https://quay.io/repository/dtan4/terraforming)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
