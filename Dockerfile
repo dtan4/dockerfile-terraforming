@@ -1,4 +1,4 @@
-FROM ruby:2.2.3-slim
+FROM ruby:2.3.0-slim
 MAINTAINER Daisuke Fujita <dtanshi45@gmail.com> (@dtan4)
 
 RUN bundle config --global frozen 1
