@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-gem "terraforming", "0.6.2"
+gem "terraforming", "0.7.0"
