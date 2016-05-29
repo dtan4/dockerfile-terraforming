@@ -16,7 +16,7 @@ Please see [Terraforming Github repository](https://github.com/dtan4/terraformin
 
 - `latest`
   - Ruby 2.3.1
-  - Terraforming 0.7.0 [![Gem Version](https://badge.fury.io/rb/terraforming.svg)](http://badge.fury.io/rb/terraforming)
+  - Terraforming 0.8.0 [![Gem Version](https://badge.fury.io/rb/terraforming.svg)](http://badge.fury.io/rb/terraforming)
 
 
 ## Usage
