@@ -6,8 +6,9 @@ WORKDIR /app
 COPY Gemfile /app/
 COPY Gemfile.lock /app/
 
-RUN apk add --no-cache --update g++ make \
+RUN apk add --no-cache --update --virtual .build-deps \
+      g++ make \
     && bundle install -j4 --without test development --system \
-    && apk del g++ make
+    && apk del .build-deps
 
 CMD ["terraforming", "help"]
