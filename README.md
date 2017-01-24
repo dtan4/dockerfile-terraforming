@@ -16,7 +16,7 @@ Please see [Terraforming Github repository](https://github.com/dtan4/terraformin
 
 - `latest`
   - Ruby 2.4.0
-  - Terraforming 0.12.0
+  - Terraforming 0.13.1
 
 ## Usage
 
